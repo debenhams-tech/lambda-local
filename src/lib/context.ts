@@ -108,9 +108,11 @@ Context.prototype._initialize = function(options) {
     if (this.verboseLevel > 1){
         this.logger.log('info', 'START RequestId: ' + this.awsRequestId);
     }
+    /*
     if (this.verboseLevel < 3){
         this.unmute = mute();
     }
+    */
     this.clientContext = options.clientContext;
 
     return;
