@@ -8,6 +8,7 @@
     "lambda-local": "build/cli.js"
   },
   "scripts": {
+    "prepare": "npm run build",
     "test": "mocha",
     "build": "tsc"
   },
